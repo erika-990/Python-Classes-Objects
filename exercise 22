@@ -1,0 +1,3 @@
+class Dog(Animal):
+    def sound(self):
+        print("Woof!")
