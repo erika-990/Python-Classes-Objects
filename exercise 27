@@ -1,0 +1,2 @@
+car = Car(); bike = Bicycle()
+car.move(); bike.move()
