@@ -1,0 +1,3 @@
+def __setitem__(self, idx, value):
+        i, j = idx
+        self.data[i][j] = value
