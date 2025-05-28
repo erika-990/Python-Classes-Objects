@@ -1,1 +1,1 @@
-
+print(p1.__dict__, Person.__dict__)
