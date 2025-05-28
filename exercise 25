@@ -3,3 +3,6 @@ class Animal:
         self.name = name
     def sound(self):
         print("...")
+class Dog(Animal):
+    def sound(self):
+        print(f"{self.name} says Woof!")
