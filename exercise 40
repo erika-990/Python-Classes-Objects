@@ -1,0 +1,18 @@
+class Logger:
+    def __call__(self, msg):
+        print(f"[LOG]: {msg}")
+
+# Examples
+v1 = Vector(1,2); v2 = Vector(3,4)
+print(v1+v2, v1*3, v1==Vector(1,2))
+
+t = Team(["A","B","C"])
+print(len(t))
+
+m = Matrix([[1,2],[3,4]])
+print(m[0,1])
+m[0,1] = 10
+print(10 in m)
+
+log = Logger()
+log("This is a message")
