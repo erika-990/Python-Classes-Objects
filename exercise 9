@@ -1,0 +1,4 @@
+p1 = Person("Alice")
+p2 = Person("Bob")
+p1.species = "Robot"
+print(p1.species, Person.species)
