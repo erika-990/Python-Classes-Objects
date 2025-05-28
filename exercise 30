@@ -1,0 +1,3 @@
+class Dog(Animal):
+    def describe(self):
+        print("Dog: loyal companion")
