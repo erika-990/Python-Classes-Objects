@@ -1,0 +1,3 @@
+zoo = [Dog(), Cat(), Animal()]
+for a in zoo:
+    a.sound()
