@@ -1,0 +1,5 @@
+  def __repr__(self):
+        return f"Student({self.first_name}, {self.last_name})"
+
+s = Student("Alice","Smith",[90,85,92])
+print(s, s.average())
