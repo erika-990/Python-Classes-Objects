@@ -1,0 +1,6 @@
+class Matrix:
+    def __init__(self, data):
+        self.data = data
+    def __getitem__(self, idx):
+        i, j = idx
+        return self.data[i][j
