@@ -1,3 +1,8 @@
 class Dog(Animal):
     def describe(self):
         print("Dog: loyal companion")
+class Cat(Animal):
+    def describe(self):
+        print("Cat: independent creature")
+
+Dog().describe(); Cat().describe()
